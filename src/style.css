@@ -71,3 +71,13 @@ body {
   /* color: rgb(50, 50, 50); */
   color: rgb(250, 255, 250);
 }
+
+.select-text {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.select-none {
+  -webkit-user-select: none;
+  user-select: none;
+}
