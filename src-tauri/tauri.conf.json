@@ -52,19 +52,10 @@
     "updater": {
       "active": false
     },
-    "windows": [
-      {
-        "fullscreen": false,
-        "height": 480,
-        "resizable": false,
-        "title": "godray",
-        "width": 800,
-        "transparent": true,
-        "fileDropEnabled": false,
-        "skipTaskbar": true,
-        "alwaysOnTop": true,
-        "decorations": false
-      }
-    ]
+    "windows": [],
+    "systemTray": {
+      "iconPath": "icons/32x32.png",
+      "iconAsTemplate": false
+    }
   }
 }
